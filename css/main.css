@@ -238,8 +238,19 @@ textarea {
   height: 80px;
 }
 
+.newWebsite{
+  padding: 20px;
+  animation:blinkingText 1.2s infinite;
+}
+
+.evolve{
+  padding: 10px;
+  color: #0e4141;
+  font-weight: bolder;
+}
+
 .name{
-  padding-top: 180px;
+  padding-top: 50px;
 }
 
 .quote{
@@ -247,7 +258,7 @@ textarea {
   color: darkred;
   font-weight: bolder;
   position: center;
-  padding-top: 130px;
+  padding-top: 80px;
   padding-left: 100px;
 }
 
@@ -256,6 +267,7 @@ textarea {
   color: darkred;
   font-weight: bolder;
   position: center;
+  padding-top: 10px;
   padding-left: 100px;
 }
 
@@ -274,6 +286,14 @@ hr{
 
 .clearfix{
   overflow: auto;
+}
+
+@keyframes blinkingText{
+  0%{     color: #000;    }
+  49%{    color: #000; }
+  60%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
 }
 
 /* ==========================================================================
