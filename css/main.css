@@ -239,18 +239,17 @@ textarea {
 }
 
 .newWebsite{
-  padding: 20px;
+  padding: 10px;
   animation:blinkingText 1.2s infinite;
 }
 
 .evolve{
-  padding: 10px;
   color: #0e4141;
   font-weight: bolder;
 }
 
 .name{
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .quote{
